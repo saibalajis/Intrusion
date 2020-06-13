@@ -1,0 +1,8 @@
+{
+  "object_path":"models/MobileNetSSD_deploy.caffemodel",
+  "object_model":"models/MobileNetSSD_deploy.prototxt.txt",
+  "in_fps":10,
+  "camera_url":"",
+  "points":"[(377, 17), (1827, 19), (2330, 639), (2558, 1180), (2412, 1397), (1045, 1347), (63, 1271), (175, 547)]"
+  
+}
