@@ -1,1 +1,2 @@
-# Intrusion
+
+This project is an intrusion detection system that uses computer vision to monitor a specific area for unauthorized access. It processes video feeds (from a camera or a video file) and detects human presence using object detection. The system defines an area of interest (a polygon) where it expects to monitor for intrusions. When a person is detected inside this area, an email alert is triggered with a snapshot of the detection attached. The project uses OpenCV for video processing, a pre-trained deep learning model for person detection, and SendGrid for sending email alerts. The system is designed to only send one email per detection, with a delay to prevent spam. It's useful for monitoring access to sensitive areas and automating security alerts.
